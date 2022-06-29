@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="import" href="component.html" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400&display=swap");
+    </style>
+    <title>Minha lojinha online</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="cabecalho">
+        <h1>Teeh Makes</h1>
+      </div>
+
+      <div id="divBusca">
+        <input type="text" id="txBusca" placeholder="Buscar..." />
+        <img src="imagem/icons8-pesquisar.gif" id="btBusca" alt="Buscar" />
+      </div>
+
+      <div class="navbar">
+        <a href="index.html"> Home </a>
+        <a href="quemsomos.html"> Quem somos </a>
+        <a href="contato.html"> contato </a>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="imagemGeral">
+        <img
+          src="https://images.unsplash.com/photo-1547934659-7fa699ef3ce0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        />
+      </div>
+
+      <div class="tituloDestaque">
+        <h2>Produtos em Destaques</h2>
+      </div>
+
+      <div class="carousel">
+        <div>
+          <img
+            width="250px"
+            height="250px"
+            src="https://images.unsplash.com/photo-1631214500206-3b7346eafe1d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80"
+            alt="kit pincel"
+          />
+          <h3>Kit pincel</h3>
+          <span>R$ 40,00</span>
+          <button class="adicionar-carrinho">
+            <img src="imagem/sacolinha.svg" /> Adicionar a sacola
+          </button>
+        </div>
+
+        <div>
+          <img
+            width="250px"
+            height="250px"
+            src="https://images.unsplash.com/photo-1631214524020-7e18db9a8f92?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80"
+            alt="delineador caneta"
+          />
+          <h3>Delineador caneta</h3>
+          <span>R$ 22,00</span>
+          <button class="adicionar-carrinho">
+            <img src="imagem/sacolinha.svg" /> Adicionar a sacola
+          </button>
+        </div>
+
+        <div>
+          <img
+            width="250px"
+            height="250px"
+            src="https://images.unsplash.com/photo-1631214499995-468422da65d4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1026&q=80"
+            alt="esponjinha"
+          />
+          <h3>Esponjinha</h3>
+          <span>R$ 25,00</span>
+          <button class="adicionar-carrinho">
+            <img src="imagem/sacolinha.svg" /> Adicionar a sacola
+          </button>
+        </div>
+
+        <div>
+          <img
+            width="250px"
+            height="250px"
+            src="https://images.unsplash.com/photo-1631214540553-ff044a3ff1d4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+            alt="rímel"
+          />
+          <h3>Rímel</h3>
+          <span>R$ 20,00</span>
+          <button class="adicionar-carrinho">
+            <img src="imagem/sacolinha.svg" /> Adicionar a sacola
+          </button>
+        </div>
+
+        <div>
+          <img
+            width="250px"
+            height="250px"
+            src="https://images.unsplash.com/photo-1631214524085-17874764a0e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+            alt="gloss"
+          />
+          <h3>Gloss</h3>
+          <span>R$ 18,00</span>
+          <button class="adicionar-carrinho">
+            <img src="imagem/sacolinha.svg" /> Adicionar a sacola
+          </button>
+        </div>
+
+        <div>
+          <img
+            width="250px"
+            height="250px"
+            src="https://images.unsplash.com/photo-1631214524198-778882d35bb3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+            alt="Sombra"
+          />
+          <h3>Sombra</h3>
+          <span>R$ 25,00</span>
+          <button class="adicionar-carrinho">
+            <img src="imagem/sacolinha.svg" /> Adicionar a sacola
+          </button>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    ></script>
+    <script type="text/javascript">
+      $(".carousel").slick({
+        slidesToShow: 5,
+        slidesToScroll: 2,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        prevArrow:
+          '<button class="slick-arrow slick-arrow-left"><img src="imagem/arrow-left.svg" /></button>',
+        nextArrow:
+          '<button class="slick-arrow slick-arrow-right"><img src="imagem/arrow-right.svg" /></button>',
+      });
+    </script>
+  </body>
+</html>
