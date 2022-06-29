@@ -44,6 +44,12 @@ body {
   display: flex;
   justify-content: center;
   padding: 5px;
+}
+
+.navbar-contato a {
+  margin: 10px;
+  color: #000;
+}
 
 .container {
   max-width: 1480px;
