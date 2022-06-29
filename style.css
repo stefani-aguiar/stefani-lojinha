@@ -31,6 +31,19 @@ body {
   margin: 10px;
   color: #ff69b4;
 }
+.navbarQuem-somos {
+ display: flex;
+ justify-content: center;
+ padding: 5px;
+}
+.navbarQuem-somos a {
+  margin: 10px;
+  color: #000;
+}
+.navbar-contato {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
 
 .container {
   max-width: 1480px;
