@@ -77,21 +77,27 @@ body {
 }
 
 
-
-.produto {
-  max-width: 100%;
-}
-
-
-.produto-imagem {
-  width: 300px;
-}
-
-.adicionar-carrinho img {
+.Vem-aproveitar img {
   width: 20px;
-  height: 18px;
-  padding-top: auto;
-  margin-right: 10px;
+  height: 20px;
+  padding: 8px 10px;
+  margin-right: 10px; 
+  border: 1px solid #ff1493;
+  border-radius: 8px;
+  position: absolute;
+}
+
+.Vem-aproveitar {
+ display: flex;
+ text-align: center;
+ background-color: #ff1493;
+ font-size: 20px;
+ color: #fff;
+ border: none;  
+ border: 1px solid #ff1493;
+ border-radius: 8px;
+ padding: 12px;
+ margin-top: 15px;
 }
 
 h1 {
@@ -138,10 +144,15 @@ h1 {
   z-index: 1;
 }
 
+.span {
+  margin-top: 100px;
+}
+
+
 .carousel .slick-arrow {
   position: absolute;
   z-index: 1;
-  top: 50%;
+  bottom: 60%;
   background-color: #fff;
   border: none;
   width: 36px;
@@ -151,9 +162,9 @@ h1 {
 }
 
 .carousel .slick-arrow-left {
-  left: -15px;
+  left: -25px;
 }
 
 .carousel .slick-arrow-right {
-  right: -15px;
+  right: 25px;
 }
