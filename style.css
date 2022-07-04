@@ -32,9 +32,9 @@ body {
   color: #ff69b4;
 }
 .navbarQuem-somos {
- display: flex;
- justify-content: center;
- padding: 5px;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
 }
 .navbarQuem-somos a {
   margin: 10px;
@@ -76,14 +76,13 @@ body {
   padding-top: 15px;
 }
 
-
-.sacolinha {
-  width: 15px;
-  height: 10px;
+.carrinho-adcionar {
+  height: 20px;
   padding: 8px 10px;
-  margin-right: 10px; 
-  border: 1px solid #ff1493;
-  border-radius: 8px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
 }
 
 .botao-compra {
@@ -97,8 +96,6 @@ body {
   height: 100%;
   padding-left: 1.5em;
   padding-right: 1.5em;
-  display: flex;
-  justify-content: center;
   padding-top: 0.25em;
   padding-bottom: 0.32em;
 }
@@ -151,7 +148,6 @@ h1 {
   margin-top: 100px;
 }
 
-
 .carousel .slick-arrow {
   position: absolute;
   z-index: 1;
@@ -172,7 +168,7 @@ h1 {
   right: 25px;
 }
 
-.cartoes-pagamento {
-display: flex;
-justify-content: center;
+.cartoes-pagamento img {
+  display: flex;
+  justify-content: center;
 }
