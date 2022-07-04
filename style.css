@@ -77,27 +77,20 @@ body {
 }
 
 
-.Vem-aproveitar img {
-  width: 20px;
-  height: 20px;
+.sacolinha {
+  width: 15px;
+  height: 10px;
   padding: 8px 10px;
   margin-right: 10px; 
   border: 1px solid #ff1493;
   border-radius: 8px;
   position: absolute;
+  top: 50%;
 }
 
-.Vem-aproveitar {
- display: flex;
- text-align: center;
- background-color: #ff1493;
- font-size: 20px;
- color: #fff;
- border: none;  
- border: 1px solid #ff1493;
- border-radius: 8px;
- padding: 12px;
- margin-top: 15px;
+.botao {
+  
+  
 }
 
 h1 {
@@ -167,4 +160,13 @@ h1 {
 
 .carousel .slick-arrow-right {
   right: 25px;
+}
+
+.footer-rodape {
+
+}
+
+.cartoes-pagamento {
+display: flex;
+justify-content: center;
 }
