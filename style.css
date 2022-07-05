@@ -1,7 +1,7 @@
 body {
   font-size: 16px;
   font-family: "Poppins", sans-serif;
-  background-color: #e0afc8;
+  background-color: #e7c9d9;
   margin: auto;
 }
 
@@ -30,16 +30,21 @@ body {
 .navbar a {
   margin: 10px;
   color: #ff69b4;
+  text-decoration: none;
 }
+
 .navbarQuem-somos {
   display: flex;
   justify-content: center;
   padding: 5px;
 }
+
 .navbarQuem-somos a {
   margin: 10px;
-  color: #000;
+  color:  #ff69b4;
+  text-decoration: none;
 }
+
 .navbar-contato {
   display: flex;
   justify-content: center;
@@ -48,7 +53,8 @@ body {
 
 .navbar-contato a {
   margin: 10px;
-  color: #000;
+  color:  #ff69b4;
+  text-decoration: none;
 }
 
 .container {
@@ -76,35 +82,94 @@ body {
   padding-top: 15px;
 }
 
-.carrinho-adcionar {
-  height: 20px;
-  padding: 8px 10px;
-  margin-right: 10px;
-  max-width: 100%;
-  position: absolute;
-  top: 50%;
+h5 {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+
+span {
+  display: flex;
+  align-items: center;
+}
+
+.carrinhoAdicionar {
+  display: flex;
+  justify-content: center;
+  vertical-align: middle;
+  padding-bottom: 0.75em;
+  padding-top: 0.5em;
+  height: 100%;
+  padding-top: 20px;
 }
 
 .botao-compra {
-  border: 1px solid #ff1493;
-  border-radius: 8px;
-  font-size: 14px;
-  background-color: #ff1493;
-  color: #fff;
-  font-weight: 700;
-  line-height: 32px;
-  height: 100%;
-  padding-left: 1.5em;
-  padding-right: 1.5em;
-  padding-top: 0.25em;
-  padding-bottom: 0.32em;
   display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: 0;
+  height: 40px;
+  width: 100%;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.botao-compra .text {
+  background: #ff1493;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 15px;
+  border-radius: 8px;
+  width: 80%;
+  color: #fff;
+  font-weight: bold;
+}
+
+.botao-compra .image {
+  background: #fff;
+  border: 2px solid #ff1493;
+  margin-left: 10px;
+  border-radius: 8px;
+  height: 100%;
+  width: 20%;
+  display: flex;
+  align-items: center;
   justify-content: center;
 }
 
-h1 {
+.botao-compra .image img {
+  max-height: 18px;
+  width: 18px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 30px;
+  background-color: #ff1493;
+}
+footer .menu a {
+  display: block;
+  padding: 5px;
+  color: #fff;
+}
+
+.payments {
+  margin-left: 30px;
+}
+
+p {
+  color: rgba(0, 0, 0, 0.664);
+}
+
+h2 {
   font-size: 25px;
   padding: 15px;
+  color: rgba(0, 0, 0, 0.849);
+  display: flex;
+  justify-content: center;
 }
 
 .social {
@@ -113,10 +178,11 @@ h1 {
   padding: 15px;
   display: flex;
   justify-content: flex-start;
+  color: rgba(0, 0, 0, 0.849);
 }
 
 .social a {
-  color: #000;
+  color: rgba(0, 0, 0, 0.795);
   text-decoration: none;
   font-weight: bold;
   margin-right: 5px;
@@ -144,10 +210,6 @@ h1 {
   max-width: 100%;
   position: relative;
   z-index: 1;
-}
-
-.span {
-  margin-top: 100px;
 }
 
 .carousel .slick-arrow {
