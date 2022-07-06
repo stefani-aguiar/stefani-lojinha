@@ -41,7 +41,7 @@ body {
 
 .navbarQuem-somos a {
   margin: 10px;
-  color:  #ff69b4;
+  color: #ff69b4;
   text-decoration: none;
 }
 
@@ -53,7 +53,7 @@ body {
 
 .navbar-contato a {
   margin: 10px;
-  color:  #ff69b4;
+  color: #ff69b4;
   text-decoration: none;
 }
 
@@ -151,25 +151,51 @@ footer {
   background-color: #ff1493;
 }
 footer .menu a {
-  display: block;
-  padding: 5px;
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
   color: #fff;
+  font-size: 14px;
+  margin-right: 10px;
 }
 
-.payments {
-  margin-left: 30px;
-}
-
-p {
-  color: rgba(0, 0, 0, 0.664);
+footer .menu img {
+  width: 13px;
 }
 
 h2 {
   font-size: 25px;
-  padding: 15px;
-  color: rgba(0, 0, 0, 0.849);
+  color: #fff;
   display: flex;
   justify-content: center;
+  margin-bottom: 20px;
+}
+
+footer .payments img {
+  padding: 0 10px;
+  max-width: 100%;
+  width: 50px;
+}
+
+.payments {
+  margin-left: 30px;
+  color: #fff;
+}
+h3 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+p {
+  color: rgba(0, 0, 0, 0.795);
+}
+
+h4 {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.808);
 }
 
 .social {
@@ -249,7 +275,7 @@ h2 {
   white-space: nowrap;
 }
 
-.cartoes-pagamento {
+.cartoesPagamento {
   display: flex;
   justify-content: center;
 }
